@@ -6,6 +6,8 @@ export default [
     type: 'input',
     data: { label: 'App' },
     position: { x: 250, y: 0 },
+    atoms: "testing",
+    selectors: null,
   },
   {
     id: '2',

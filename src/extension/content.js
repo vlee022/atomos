@@ -17,6 +17,6 @@ window.addEventListener('message', handleMessage);
 
 // make sure reactFileParser is appended when the DOM is loaded
 // inject reactFileParser in the application
-const script = document.createElement('script');
-script.src = chrome.extension.getURL('bundles/backend.bundle.js');
+const script = document.createElement("script");
+script.src = chrome.extension.getURL("bundles/backend.bundle.js");
 document.head.appendChild(script);
